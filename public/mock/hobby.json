@@ -1,0 +1,6 @@
+[
+  { "id": "1", "name": "篮球", "value": "basketball" },
+  { "id": "2", "name": "足球", "value": "football" },
+  { "id": "3", "name": "乒乓球", "value": "pingpangball" },
+  { "id": "4", "name": "看书", "value": "reading" }
+]

@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ErrorComponent from './components/error-component/error-component';
 import reportWebVitals from './reportWebVitals';
 
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 ReactDOM.render(
-  <React.StrictMode>
+  <ErrorComponent>
     <App />
-  </React.StrictMode>,
+  </ErrorComponent>,
   document.getElementById('root')
 );
 
