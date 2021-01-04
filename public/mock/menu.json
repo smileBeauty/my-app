@@ -1,0 +1,10 @@
+[
+  { "key": "/order", "name": "订单管理", "children": [
+    { "key": "/order/list", "name": "订单列表" },
+    { "key": "/order/xxx", "name": "订单xxx" }
+  ] },
+  { "key": "/address", "name": "地址管理", "children": [
+    { "key": "/address/list", "name": "地址列表" },
+    { "key": "/address/xxx", "name": "地址xxx" }
+  ] }
+]

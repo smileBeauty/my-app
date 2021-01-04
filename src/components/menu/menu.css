@@ -1,0 +1,33 @@
+.menu{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #001529;
+}
+.menu .menu-logo{
+  width: 200px;
+  background-image: url('../../asserts/images/logo.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 8px 15px 8px 30px;
+  cursor: pointer;
+}
+.menu .menu__antd-menu{
+  flex: 1;
+  margin-left: 50px;
+}
+.menu .menu__avatarWrap{
+  width: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.menu__avatarWrap .menu__avatar__down{
+  color: #fff;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.submenu{
+  display: flex;
+  flex-wrap: nowrap;
+  height: calc(100vh - 46px);
+}
